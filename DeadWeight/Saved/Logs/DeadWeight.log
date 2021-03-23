@@ -1362,3 +1362,557 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.23-14.36.10:000][104]AssetCheck: New page: Asset Save: multiple assets
 [2021.03.23-14.36.10:000][104]LogContentValidation: Display: Validating World /Game/MapLevel1.MapLevel1
 [2021.03.23-14.36.10:000][104]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MapLevel1_BuiltData.MapLevel1_BuiltData
+[2021.03.23-14.37.21:469][462]LogSlate: Window 'Message Log' being destroyed
+[2021.03.23-14.37.21:479][462]LogSlate: Window 'Message Log' being destroyed
+[2021.03.23-14.37.40:849][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.03.23-14.37.40:886][636]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Farm.Farm
+[2021.03.23-14.37.40:886][636]Cmd: MAP LOAD FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.23-14.37.40:886][636]LightingResults: New page: Lighting Build
+[2021.03.23-14.37.40:886][636]LoadErrors: New page: Loading map: Farm.umap
+[2021.03.23-14.37.40:921][636]LogWorld: UWorld::CleanupWorld for MapLevel1, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.37.40:922][636]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.37.40:922][636]MapCheck: New page: Map Check
+[2021.03.23-14.37.40:922][636]LightingResults: New page: Lighting Build
+[2021.03.23-14.37.40:938][636]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.23-14.37.40:956][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.03.23-14.37.40:958][636]LogAudio: Display: Audio Device (ID: 1) registered with world 'Farm'.
+[2021.03.23-14.37.40:966][636]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.23-14.37.40:966][636]LogAIModule: Creating AISystem for world Farm
+[2021.03.23-14.37.40:984][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.03.23-14.37.40:999][636]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.23-14.37.40:999][636]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2021.03.23-14.37.40:999][636]LogFileHelpers: Loading map 'Farm' took 0.113
+[2021.03.23-14.37.53:225][ 62]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Farm.Farm:PersistentLevel.Farm
+[2021.03.23-14.39.59:654][637]BlueprintLog: New page: Compile Farm
+[2021.03.23-14.39.59:689][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.03.23-14.40.00:619][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Farm" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-14.40.00:637][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.03.23-14.40.00:665][728]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/Farm8125AE7546971E6F1A55D09DD0F50C58.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap'
+[2021.03.23-14.40.00:681][728]LogFileHelpers: Saving map 'Farm' took 0.063
+[2021.03.23-14.40.00:691][728]AssetCheck: New page: Asset Save: Farm
+[2021.03.23-14.40.00:691][728]LogContentValidation: Display: Validating World /Game/Farm.Farm
+[2021.03.23-14.40.04:265][969]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-14.40.04:276][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-14.40.04:276][969]PIE: New page: PIE session: Farm (Mar 23, 2021, 6:40:04 AM)
+[2021.03.23-14.40.04:301][969]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Farm
+[2021.03.23-14.40.04:306][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004761s)
+[2021.03.23-14.40.04:306][969]LogAIModule: Creating AISystem for world Farm
+[2021.03.23-14.40.04:307][969]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2021.03.23-14.40.04:307][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Farm.Farm to /Game/UEDPIE_0_Farm.Farm (0.005808s)
+[2021.03.23-14.40.04:324][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.03.23-14.40.04:324][969]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.03.23-14.40.04:325][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-14.40.04:325][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-14.40.04:325][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-14.40.04:325][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-14.40.04:325][969]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-14.40.04:325][969]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-14.40.04:325][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-14.40.04:325][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-14.40.04:325][969]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-14.40.04:325][969]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-14.40.04:329][969]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-14.40.04:329][969]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-14.40.04:338][969]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2021.03.23-14.40.04:338][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-14.40.04:339][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-14.40.04:339][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-14.40.04:339][969]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-14.40.04:339][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.23-14.40.04:339][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.23-14.40.04:353][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.23-14.40.04:353][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.23-14.40.04:353][969]LogInit: FAudioDevice initialized.
+[2021.03.23-14.40.04:353][969]LogAudio: Display: Audio Device (ID: 7) registered with world 'Farm'.
+[2021.03.23-14.40.04:364][969]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.40.04:368][969]LogWorld: Bringing World /Game/UEDPIE_0_Farm.Farm up for play (max tick rate 0) at 2021.03.23-10.40.04
+[2021.03.23-14.40.04:369][969]LogWorld: Bringing up level for play took: 0.002775
+[2021.03.23-14.40.04:369][969]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.03.23-14.40.04:371][969]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.23-14.40.04:372][969]PIE: Server logged in
+[2021.03.23-14.40.04:372][969]PIE: Play in editor total start time 0.098 seconds.
+[2021.03.23-14.40.12:912][834]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.40.17:175][269]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.40.21:169][685]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.40.22:101][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.40.22:101][774]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Farm
+[2021.03.23-14.40.22:101][774]LogWorld: UWorld::CleanupWorld for Farm, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.40.22:102][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.40.22:113][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-14.40.22:116][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.40.22:138][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.40.22:138][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.40.22:141][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.40.22:171][774]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.03.23-14.40.22:264][775]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.03.23-14.40.49:937][593]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.23-14.41.06:798][224]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/noSwitch.noSwitch
+[2021.03.23-14.42.23:174][589]LogSlate: Took 0.008275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.03.23-14.43.20:575][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/noSwitch" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/UI/noSwitch.uasset" SILENT=true
+[2021.03.23-14.43.20:585][499]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/noSwitchF52BF02E4093AC3F818EA9901DA845FA.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/UI/noSwitch.uasset'
+[2021.03.23-14.43.20:604][499]AssetCheck: New page: Asset Save: noSwitch
+[2021.03.23-14.43.20:604][499]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/noSwitch.noSwitch
+[2021.03.23-14.43.23:961][871]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.43.23:961][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.43.23:973][871]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.43.23:973][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.43.55:418][636]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/prefabs/RadioBP.RadioBP
+[2021.03.23-14.44.16:486][500]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.23-14.46.32:401][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Farm" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-14.46.32:458][662]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.03.23-14.46.32:487][662]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/Farm763153454B2E45B56B007A8D3AD05B44.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap'
+[2021.03.23-14.46.32:502][662]LogFileHelpers: Saving map 'Farm' took 0.102
+[2021.03.23-14.46.32:514][662]AssetCheck: New page: Asset Save: Farm
+[2021.03.23-14.46.32:514][662]LogContentValidation: Display: Validating World /Game/Farm.Farm
+[2021.03.23-14.46.33:708][783]BlueprintLog: New page: Compile Farm
+[2021.03.23-14.46.33:761][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.03.23-14.46.34:701][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Farm" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-14.46.34:727][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.03.23-14.46.34:755][874]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/Farm88C948C2465C4DC38097CBB0C2CF6E6A.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap'
+[2021.03.23-14.46.34:771][874]LogFileHelpers: Saving map 'Farm' took 0.070
+[2021.03.23-14.46.34:782][874]AssetCheck: New page: Asset Save: Farm
+[2021.03.23-14.46.34:782][874]LogContentValidation: Display: Validating World /Game/Farm.Farm
+[2021.03.23-14.46.36:114][  1]BlueprintLog: New page: Compile RadioBP
+[2021.03.23-14.46.36:160][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.03.23-14.46.36:860][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/prefabs/RadioBP" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/prefabs/RadioBP.uasset" SILENT=true
+[2021.03.23-14.46.36:880][ 57]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/RadioBP80DC3ED54D4F13C006BC99B381B3C672.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/prefabs/RadioBP.uasset'
+[2021.03.23-14.46.36:891][ 57]AssetCheck: New page: Asset Save: RadioBP
+[2021.03.23-14.46.36:891][ 57]LogContentValidation: Display: Validating Blueprint /Game/prefabs/RadioBP.RadioBP
+[2021.03.23-14.46.41:269][350]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-14.46.41:279][350]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.23-14.46.41:283][350]LogPlayLevel: [PlayLevel] Compiling noSwitch before play...
+[2021.03.23-14.46.41:313][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.03.23-14.46.41:314][350]LogPlayLevel: PlayLevel: Blueprint regeneration took 35 ms (1 blueprints)
+[2021.03.23-14.46.41:314][350]PIE: New page: PIE session: Farm (Mar 23, 2021, 6:46:41 AM)
+[2021.03.23-14.46.41:360][350]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Farm
+[2021.03.23-14.46.41:365][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004957s)
+[2021.03.23-14.46.41:366][350]LogAIModule: Creating AISystem for world Farm
+[2021.03.23-14.46.41:366][350]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2021.03.23-14.46.41:366][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Farm.Farm to /Game/UEDPIE_0_Farm.Farm (0.006035s)
+[2021.03.23-14.46.41:392][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.03.23-14.46.41:392][350]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.03.23-14.46.41:392][350]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-14.46.41:392][350]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-14.46.41:392][350]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-14.46.41:392][350]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-14.46.41:392][350]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-14.46.41:392][350]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-14.46.41:392][350]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-14.46.41:392][350]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-14.46.41:392][350]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-14.46.41:392][350]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-14.46.41:397][350]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-14.46.41:397][350]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-14.46.41:407][350]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2021.03.23-14.46.41:407][350]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-14.46.41:407][350]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-14.46.41:407][350]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-14.46.41:408][350]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-14.46.41:408][350]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.23-14.46.41:408][350]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.23-14.46.41:421][350]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.23-14.46.41:421][350]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.23-14.46.41:421][350]LogInit: FAudioDevice initialized.
+[2021.03.23-14.46.41:421][350]LogAudio: Display: Audio Device (ID: 8) registered with world 'Farm'.
+[2021.03.23-14.46.41:428][350]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.46.41:432][350]LogWorld: Bringing World /Game/UEDPIE_0_Farm.Farm up for play (max tick rate 0) at 2021.03.23-10.46.41
+[2021.03.23-14.46.41:432][350]LogWorld: Bringing up level for play took: 0.002978
+[2021.03.23-14.46.41:432][350]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.03.23-14.46.41:435][350]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.23-14.46.41:435][350]PIE: Server logged in
+[2021.03.23-14.46.41:436][350]PIE: Play in editor total start time 0.158 seconds.
+[2021.03.23-14.46.46:523][875]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.47.01:347][416]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.47.04:851][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.47.04:851][791]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Farm
+[2021.03.23-14.47.04:851][791]LogWorld: UWorld::CleanupWorld for Farm, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.47.04:852][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.47.04:861][791]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-14.47.04:866][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.47.04:890][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.47.04:890][791]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.47.04:891][791]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.47.04:909][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.03.23-14.47.04:961][792]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.03.23-14.47.14:185][505]BlueprintLog: New page: Compile Farm
+[2021.03.23-14.47.14:231][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.03.23-14.47.14:807][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Farm" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-14.47.14:833][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.03.23-14.47.14:861][560]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/FarmF9CA9E904B062EF701BE05A40F0386E9.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap'
+[2021.03.23-14.47.14:877][560]LogFileHelpers: Saving map 'Farm' took 0.071
+[2021.03.23-14.47.14:889][560]AssetCheck: New page: Asset Save: Farm
+[2021.03.23-14.47.14:889][560]LogContentValidation: Display: Validating World /Game/Farm.Farm
+[2021.03.23-14.47.16:878][708]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-14.47.16:888][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-14.47.16:889][708]PIE: New page: PIE session: Farm (Mar 23, 2021, 6:47:16 AM)
+[2021.03.23-14.47.16:920][708]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Farm
+[2021.03.23-14.47.16:925][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005035s)
+[2021.03.23-14.47.16:926][708]LogAIModule: Creating AISystem for world Farm
+[2021.03.23-14.47.16:926][708]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2021.03.23-14.47.16:926][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Farm.Farm to /Game/UEDPIE_0_Farm.Farm (0.006019s)
+[2021.03.23-14.47.16:952][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.03.23-14.47.16:952][708]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.03.23-14.47.16:952][708]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-14.47.16:952][708]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-14.47.16:952][708]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-14.47.16:952][708]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-14.47.16:952][708]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-14.47.16:952][708]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-14.47.16:952][708]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-14.47.16:952][708]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-14.47.16:953][708]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-14.47.16:953][708]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-14.47.16:957][708]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-14.47.16:957][708]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-14.47.16:967][708]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2021.03.23-14.47.16:967][708]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-14.47.16:967][708]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-14.47.16:967][708]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-14.47.16:968][708]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-14.47.16:968][708]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.23-14.47.16:968][708]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.23-14.47.16:981][708]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.23-14.47.16:981][708]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.23-14.47.16:981][708]LogInit: FAudioDevice initialized.
+[2021.03.23-14.47.16:981][708]LogAudio: Display: Audio Device (ID: 9) registered with world 'Farm'.
+[2021.03.23-14.47.16:991][708]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.47.16:994][708]LogWorld: Bringing World /Game/UEDPIE_0_Farm.Farm up for play (max tick rate 0) at 2021.03.23-10.47.16
+[2021.03.23-14.47.16:995][708]LogWorld: Bringing up level for play took: 0.002867
+[2021.03.23-14.47.16:995][708]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.03.23-14.47.16:997][708]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.23-14.47.16:997][708]PIE: Server logged in
+[2021.03.23-14.47.16:998][708]PIE: Play in editor total start time 0.111 seconds.
+[2021.03.23-14.47.18:476][859]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.47.24:771][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.47.24:771][526]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Farm
+[2021.03.23-14.47.24:772][526]LogWorld: UWorld::CleanupWorld for Farm, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.47.24:772][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.47.24:780][526]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-14.47.24:785][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.47.24:809][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.47.24:810][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.47.24:811][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.47.24:828][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.03.23-14.47.24:878][527]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.03.23-14.47.41:097][985]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/noSwitch.noSwitch
+[2021.03.23-14.48.09:313][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/noSwitch" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/UI/noSwitch.uasset" SILENT=true
+[2021.03.23-14.48.09:324][259]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/noSwitchC30DE3A141B864C709E92CAF90536902.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/UI/noSwitch.uasset'
+[2021.03.23-14.48.09:335][259]AssetCheck: New page: Asset Save: noSwitch
+[2021.03.23-14.48.09:335][259]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/noSwitch.noSwitch
+[2021.03.23-14.48.12:854][530]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-14.48.12:865][530]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.23-14.48.12:870][530]LogPlayLevel: [PlayLevel] Compiling noSwitch before play...
+[2021.03.23-14.48.12:976][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.03.23-14.48.12:978][530]LogPlayLevel: PlayLevel: Blueprint regeneration took 112 ms (1 blueprints)
+[2021.03.23-14.48.12:978][530]PIE: New page: PIE session: Farm (Mar 23, 2021, 6:48:12 AM)
+[2021.03.23-14.48.13:000][530]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Farm
+[2021.03.23-14.48.13:010][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009851s)
+[2021.03.23-14.48.13:012][530]LogAIModule: Creating AISystem for world Farm
+[2021.03.23-14.48.13:012][530]LogPlayLevel: PIE: World Init took: (0.001621s)
+[2021.03.23-14.48.13:012][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Farm.Farm to /Game/UEDPIE_0_Farm.Farm (0.011726s)
+[2021.03.23-14.48.13:056][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.03.23-14.48.13:056][530]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.03.23-14.48.13:056][530]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-14.48.13:056][530]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-14.48.13:056][530]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-14.48.13:056][530]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-14.48.13:056][530]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-14.48.13:056][530]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-14.48.13:056][530]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-14.48.13:056][530]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-14.48.13:057][530]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-14.48.13:057][530]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-14.48.13:061][530]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-14.48.13:061][530]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-14.48.13:072][530]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2021.03.23-14.48.13:072][530]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-14.48.13:072][530]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-14.48.13:072][530]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-14.48.13:072][530]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-14.48.13:072][530]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.23-14.48.13:072][530]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.23-14.48.13:085][530]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.23-14.48.13:085][530]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.23-14.48.13:085][530]LogInit: FAudioDevice initialized.
+[2021.03.23-14.48.13:085][530]LogAudio: Display: Audio Device (ID: 10) registered with world 'Farm'.
+[2021.03.23-14.48.13:096][530]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.48.13:100][530]LogWorld: Bringing World /Game/UEDPIE_0_Farm.Farm up for play (max tick rate 0) at 2021.03.23-10.48.13
+[2021.03.23-14.48.13:100][530]LogWorld: Bringing up level for play took: 0.002912
+[2021.03.23-14.48.13:101][530]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.03.23-14.48.13:103][530]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.23-14.48.13:103][530]PIE: Server logged in
+[2021.03.23-14.48.13:104][530]PIE: Play in editor total start time 0.24 seconds.
+[2021.03.23-14.48.14:699][656]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.48.18:976][995]LogNet: Browse: /Game/Farm
+[2021.03.23-14.48.18:977][995]LogLoad: LoadMap: /Game/Farm
+[2021.03.23-14.48.18:977][995]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Farm
+[2021.03.23-14.48.18:977][995]LogWorld: UWorld::CleanupWorld for Farm, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.48.18:977][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.48.19:046][995]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.23-14.48.19:049][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.03.23-14.48.19:050][995]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Farm
+[2021.03.23-14.48.19:056][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004890s)
+[2021.03.23-14.48.19:056][995]LogAIModule: Creating AISystem for world Farm
+[2021.03.23-14.48.19:056][995]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2021.03.23-14.48.19:056][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Farm.Farm to /Game/UEDPIE_0_Farm.Farm (0.005867s)
+[2021.03.23-14.48.19:056][995]LogAudio: Display: Audio Device (ID: 10) registered with world 'Farm'.
+[2021.03.23-14.48.19:056][995]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.48.19:059][995]LogWorld: Bringing World /Game/UEDPIE_0_Farm.Farm up for play (max tick rate 0) at 2021.03.23-10.48.19
+[2021.03.23-14.48.19:060][995]LogWorld: Bringing up level for play took: 0.002530
+[2021.03.23-14.48.19:061][995]LogLoad: Took 0.084722 seconds to LoadMap(/Game/UEDPIE_0_Farm)
+[2021.03.23-14.48.25:661][520]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.48.42:106][835]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.48.47:271][250]LogNet: Browse: /Game/Farm
+[2021.03.23-14.48.47:271][250]LogLoad: LoadMap: /Game/Farm
+[2021.03.23-14.48.47:271][250]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Farm
+[2021.03.23-14.48.47:272][250]LogWorld: UWorld::CleanupWorld for Farm, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.48.47:272][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.48.47:327][250]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.23-14.48.47:331][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.03.23-14.48.47:332][250]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Farm
+[2021.03.23-14.48.47:337][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004899s)
+[2021.03.23-14.48.47:338][250]LogAIModule: Creating AISystem for world Farm
+[2021.03.23-14.48.47:338][250]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2021.03.23-14.48.47:338][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Farm.Farm to /Game/UEDPIE_0_Farm.Farm (0.005866s)
+[2021.03.23-14.48.47:338][250]LogAudio: Display: Audio Device (ID: 10) registered with world 'Farm'.
+[2021.03.23-14.48.47:338][250]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.48.47:341][250]LogWorld: Bringing World /Game/UEDPIE_0_Farm.Farm up for play (max tick rate 0) at 2021.03.23-10.48.47
+[2021.03.23-14.48.47:342][250]LogWorld: Bringing up level for play took: 0.002712
+[2021.03.23-14.48.47:343][250]LogLoad: Took 0.071680 seconds to LoadMap(/Game/UEDPIE_0_Farm)
+[2021.03.23-14.48.49:847][448]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.49.04:624][602]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.49.44:999][809]LogNet: Browse: /Game/ContinueMenu
+[2021.03.23-14.49.44:999][809]LogLoad: LoadMap: /Game/ContinueMenu
+[2021.03.23-14.49.44:999][809]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Farm
+[2021.03.23-14.49.45:000][809]LogWorld: UWorld::CleanupWorld for Farm, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.49.45:000][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.49.45:057][809]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.23-14.49.45:061][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.03.23-14.49.45:067][809]LogAudio: Display: Audio Device (ID: 10) registered with world 'ContinueMenu'.
+[2021.03.23-14.49.45:067][809]LogAIModule: Creating AISystem for world ContinueMenu
+[2021.03.23-14.49.45:068][809]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.49.45:069][809]LogWorld: Bringing World /Game/UEDPIE_0_ContinueMenu.ContinueMenu up for play (max tick rate 0) at 2021.03.23-10.49.45
+[2021.03.23-14.49.45:069][809]LogWorld: Bringing up level for play took: 0.000431
+[2021.03.23-14.49.45:069][809]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.23-14.49.45:070][809]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-14.49.45:070][809]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.03.23-14.49.45:070][809]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2021.03.23-14.49.45:070][809]LogLoad: Took 0.070811 seconds to LoadMap(/Game/ContinueMenu)
+[2021.03.23-14.49.48:496][106]LogNet: Browse: /Game/MapLevel1
+[2021.03.23-14.49.48:496][106]LogLoad: LoadMap: /Game/MapLevel1
+[2021.03.23-14.49.48:496][106]LogWorld: BeginTearingDown for /Game/UEDPIE_0_ContinueMenu
+[2021.03.23-14.49.48:497][106]LogWorld: UWorld::CleanupWorld for ContinueMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.49.48:497][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.49.48:556][106]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.23-14.49.48:559][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.03.23-14.49.48:739][106]LogAudio: Display: Audio Device (ID: 10) registered with world 'MapLevel1'.
+[2021.03.23-14.49.48:740][106]LogAIModule: Creating AISystem for world MapLevel1
+[2021.03.23-14.49.48:740][106]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.49.48:759][106]LogWorld: Bringing World /Game/UEDPIE_0_MapLevel1.MapLevel1 up for play (max tick rate 0) at 2021.03.23-10.49.48
+[2021.03.23-14.49.48:760][106]LogWorld: Bringing up level for play took: 0.018794
+[2021.03.23-14.49.48:762][106]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.03.23-14.49.48:762][106]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.03.23-14.49.48:762][106]LogLoad: Took 0.266292 seconds to LoadMap(/Game/MapLevel1)
+[2021.03.23-14.49.56:301][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.49.56:301][613]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MapLevel1
+[2021.03.23-14.49.56:301][613]LogWorld: UWorld::CleanupWorld for MapLevel1, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.49.56:302][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.49.56:313][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-14.49.56:318][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.49.56:346][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.49.56:346][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.49.56:347][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.49.56:368][613]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.03.23-14.49.56:425][614]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.03.23-14.50.12:810][ 47]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.50.12:810][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.50.12:823][ 47]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.50.12:823][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.50.18:704][544]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.50.18:704][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.50.35:499][233]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.03.23-14.50.35:685][233]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapLevel1.MapLevel1
+[2021.03.23-14.50.35:685][233]Cmd: MAP LOAD FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/MapLevel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.23-14.50.35:685][233]LightingResults: New page: Lighting Build
+[2021.03.23-14.50.35:685][233]LoadErrors: New page: Loading map: MapLevel1.umap
+[2021.03.23-14.50.35:687][233]LogSlate: Window 'Farm' being destroyed
+[2021.03.23-14.50.35:810][233]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.50.35:810][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.50.35:848][233]LogWorld: UWorld::CleanupWorld for Farm, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.50.35:848][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.50.35:849][233]MapCheck: New page: Map Check
+[2021.03.23-14.50.35:849][233]LightingResults: New page: Lighting Build
+[2021.03.23-14.50.35:877][233]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.23-14.50.35:899][233]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.03.23-14.50.35:901][233]LogAudio: Display: Audio Device (ID: 1) registered with world 'MapLevel1'.
+[2021.03.23-14.50.35:922][233]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.23-14.50.35:922][233]LogAIModule: Creating AISystem for world MapLevel1
+[2021.03.23-14.50.36:059][233]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.03.23-14.50.36:074][233]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.23-14.50.36:074][233]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.176ms to complete.
+[2021.03.23-14.50.36:074][233]LogFileHelpers: Loading map 'MapLevel1' took 0.389
+[2021.03.23-14.50.39:301][569]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/MapLevel1.MapLevel1:PersistentLevel.MapLevel1
+[2021.03.23-14.51.03:577][633]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.23-14.52.24:325][295]BlueprintLog: New page: Compile MapLevel1
+[2021.03.23-14.52.24:329][295]LogBlueprint: Warning: [AssetLog] C:\Users\saloa\Documents\GitHub\DeadWeightRepo\DeadWeight\Content\MapLevel1.umap: [Compiler] Could not find a variable named "noSwitchMess" in 'MapLevel1_C'.
+Make sure 'MapLevel1_C' has been compiled for  Get noSwitchMess
+[2021.03.23-14.52.24:329][295]LogBlueprint: Warning: [AssetLog] C:\Users\saloa\Documents\GitHub\DeadWeightRepo\DeadWeight\Content\MapLevel1.umap: [Compiler] Could not find a variable named "noSwitchMess" in 'MapLevel1_C'.
+Make sure 'MapLevel1_C' has been compiled for  Set noSwitchMess
+[2021.03.23-14.52.24:330][295]LogBlueprint: Error: [AssetLog] C:\Users\saloa\Documents\GitHub\DeadWeightRepo\DeadWeight\Content\MapLevel1.umap: [Compiler] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2021.03.23-14.52.24:330][295]LogBlueprint: Error: [AssetLog] C:\Users\saloa\Documents\GitHub\DeadWeightRepo\DeadWeight\Content\MapLevel1.umap: [Compiler] The property associated with  No Switch Mess  could not be found in '/Game/MapLevel1.MapLevel1_C'
+[2021.03.23-14.52.24:331][295]LogBlueprint: Error: [AssetLog] C:\Users\saloa\Documents\GitHub\DeadWeightRepo\DeadWeight\Content\MapLevel1.umap: [Compiler] The property associated with  No Switch Mess  could not be found in '/Game/MapLevel1.MapLevel1_C'
+[2021.03.23-14.52.24:391][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.03.23-14.53.16:865][657]BlueprintLog: New page: Compile MapLevel1
+[2021.03.23-14.53.16:926][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.03.23-14.53.20:695][907]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-14.53.20:706][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-14.53.20:706][907]PIE: New page: PIE session: MapLevel1 (Mar 23, 2021, 6:53:20 AM)
+[2021.03.23-14.53.20:739][907]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MapLevel1
+[2021.03.23-14.53.20:910][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170199s)
+[2021.03.23-14.53.20:911][907]LogAIModule: Creating AISystem for world MapLevel1
+[2021.03.23-14.53.20:911][907]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2021.03.23-14.53.20:911][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapLevel1.MapLevel1 to /Game/UEDPIE_0_MapLevel1.MapLevel1 (0.171470s)
+[2021.03.23-14.53.20:930][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.03.23-14.53.20:932][907]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.03.23-14.53.20:932][907]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-14.53.20:932][907]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-14.53.20:932][907]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-14.53.20:932][907]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-14.53.20:932][907]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-14.53.20:932][907]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-14.53.20:932][907]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-14.53.20:932][907]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-14.53.20:932][907]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-14.53.20:932][907]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-14.53.20:936][907]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-14.53.20:936][907]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-14.53.20:946][907]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2021.03.23-14.53.20:946][907]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-14.53.20:946][907]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-14.53.20:946][907]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-14.53.20:947][907]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-14.53.20:947][907]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.23-14.53.20:947][907]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.23-14.53.20:961][907]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.23-14.53.20:961][907]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.23-14.53.20:961][907]LogInit: FAudioDevice initialized.
+[2021.03.23-14.53.20:961][907]LogAudio: Display: Audio Device (ID: 11) registered with world 'MapLevel1'.
+[2021.03.23-14.53.20:968][907]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.53.20:981][907]LogWorld: Bringing World /Game/UEDPIE_0_MapLevel1.MapLevel1 up for play (max tick rate 0) at 2021.03.23-10.53.20
+[2021.03.23-14.53.20:981][907]LogWorld: Bringing up level for play took: 0.012168
+[2021.03.23-14.53.20:981][907]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.03.23-14.53.20:984][907]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.23-14.53.20:984][907]PIE: Server logged in
+[2021.03.23-14.53.20:985][907]PIE: Play in editor total start time 0.279 seconds.
+[2021.03.23-14.53.25:289][245]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.53.29:533][579]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.53.35:769][ 74]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.53.44:220][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.53.44:220][755]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MapLevel1
+[2021.03.23-14.53.44:221][755]LogWorld: UWorld::CleanupWorld for MapLevel1, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.53.44:222][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.53.44:228][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-14.53.44:232][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.53.44:249][755]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.23-14.53.44:249][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.53.44:250][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.53.44:264][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.53.44:278][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.03.23-14.53.44:348][756]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.03.23-14.53.45:917][860]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-14.53.45:930][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-14.53.45:930][860]PIE: New page: PIE session: MapLevel1 (Mar 23, 2021, 6:53:45 AM)
+[2021.03.23-14.53.45:979][860]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MapLevel1
+[2021.03.23-14.53.46:143][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164358s)
+[2021.03.23-14.53.46:144][860]LogAIModule: Creating AISystem for world MapLevel1
+[2021.03.23-14.53.46:144][860]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2021.03.23-14.53.46:145][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapLevel1.MapLevel1 to /Game/UEDPIE_0_MapLevel1.MapLevel1 (0.165537s)
+[2021.03.23-14.53.46:164][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.03.23-14.53.46:165][860]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.03.23-14.53.46:165][860]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-14.53.46:165][860]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-14.53.46:165][860]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-14.53.46:165][860]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-14.53.46:165][860]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-14.53.46:165][860]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-14.53.46:165][860]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-14.53.46:165][860]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-14.53.46:166][860]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-14.53.46:166][860]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-14.53.46:169][860]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-14.53.46:169][860]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-14.53.46:179][860]LogAudioMixer: Display: Using Audio Device Speakers (Mpow HC)
+[2021.03.23-14.53.46:180][860]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-14.53.46:180][860]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-14.53.46:180][860]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-14.53.46:180][860]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-14.53.46:180][860]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.23-14.53.46:180][860]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.23-14.53.46:193][860]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.23-14.53.46:193][860]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.23-14.53.46:193][860]LogInit: FAudioDevice initialized.
+[2021.03.23-14.53.46:193][860]LogAudio: Display: Audio Device (ID: 12) registered with world 'MapLevel1'.
+[2021.03.23-14.53.46:204][860]LogLoad: Game class is 'DWGameMode_C'
+[2021.03.23-14.53.46:215][860]LogWorld: Bringing World /Game/UEDPIE_0_MapLevel1.MapLevel1 up for play (max tick rate 0) at 2021.03.23-10.53.46
+[2021.03.23-14.53.46:216][860]LogWorld: Bringing up level for play took: 0.010651
+[2021.03.23-14.53.46:216][860]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.03.23-14.53.46:219][860]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.23-14.53.46:219][860]PIE: Server logged in
+[2021.03.23-14.53.46:220][860]PIE: Play in editor total start time 0.291 seconds.
+[2021.03.23-14.53.48:477][ 31]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.53.53:566][446]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.53.53:762][462]PIE: Warning: The widget 'ClickPrompt_C' was already added to the screen.
+[2021.03.23-14.53.57:891][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.53.57:891][793]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MapLevel1
+[2021.03.23-14.53.57:891][793]LogWorld: UWorld::CleanupWorld for MapLevel1, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.53.57:892][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.53.57:898][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-14.53.57:902][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.53.57:922][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-14.53.57:924][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.53.57:925][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.23-14.53.57:944][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.03.23-14.53.58:008][794]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.03.23-14.54.27:870][889]BlueprintLog: New page: Compile MapLevel1
+[2021.03.23-14.54.27:932][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.03.23-14.54.28:394][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapLevel1" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/MapLevel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-14.54.28:418][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.03.23-14.54.28:892][918]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/MapLevel139D6D499423821ADD925CEAF64204CF4.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/MapLevel1.umap'
+[2021.03.23-14.54.28:910][918]LogFileHelpers: Saving map 'MapLevel1' took 0.517
+[2021.03.23-14.54.28:921][918]AssetCheck: New page: Asset Save: MapLevel1
+[2021.03.23-14.54.28:921][918]LogContentValidation: Display: Validating World /Game/MapLevel1.MapLevel1
+[2021.03.23-14.54.29:833][989]LogSlate: Window 'MapLevel1' being destroyed
+[2021.03.23-14.54.29:837][989]LogSlate: Window 'MapLevel1' being destroyed
+[2021.03.23-14.54.29:846][989]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.54.29:846][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.54.31:480][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.03.23-14.54.31:495][128]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Farm.Farm
+[2021.03.23-14.54.31:495][128]Cmd: MAP LOAD FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.23-14.54.31:495][128]LightingResults: New page: Lighting Build
+[2021.03.23-14.54.31:495][128]LoadErrors: New page: Loading map: Farm.umap
+[2021.03.23-14.54.31:498][128]LogWorld: UWorld::CleanupWorld for MapLevel1, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.54.31:498][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-14.54.31:499][128]MapCheck: New page: Map Check
+[2021.03.23-14.54.31:499][128]LightingResults: New page: Lighting Build
+[2021.03.23-14.54.31:515][128]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.23-14.54.31:522][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.03.23-14.54.31:524][128]LogAudio: Display: Audio Device (ID: 1) registered with world 'Farm'.
+[2021.03.23-14.54.31:532][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.23-14.54.31:532][128]LogAIModule: Creating AISystem for world Farm
+[2021.03.23-14.54.31:555][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.03.23-14.54.31:570][128]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.23-14.54.31:570][128]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.123ms to complete.
+[2021.03.23-14.54.31:570][128]LogFileHelpers: Loading map 'Farm' took 0.074
+[2021.03.23-14.54.34:390][447]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Farm.Farm:PersistentLevel.Farm
+[2021.03.23-14.55.02:784][981]BlueprintLog: New page: Compile Farm
+[2021.03.23-14.55.02:819][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.03.23-14.55.03:304][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Farm" FILE="C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-14.55.03:323][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.03.23-14.55.03:351][ 20]LogSavePackage: Moving 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Saved/Farm4EF1B5D54F5794CA4B0DA38A75A95550.tmp' to 'C:/Users/saloa/Documents/GitHub/DeadWeightRepo/DeadWeight/Content/Farm.umap'
+[2021.03.23-14.55.03:367][ 20]LogFileHelpers: Saving map 'Farm' took 0.063
+[2021.03.23-14.55.03:380][ 20]AssetCheck: New page: Asset Save: Farm
+[2021.03.23-14.55.03:381][ 20]LogContentValidation: Display: Validating World /Game/Farm.Farm
+[2021.03.23-14.55.04:387][111]LogSlate: Window 'Farm' being destroyed
+[2021.03.23-14.55.04:392][111]LogSlate: Window 'Farm' being destroyed
+[2021.03.23-14.55.04:440][111]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-14.55.04:440][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
